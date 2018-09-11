@@ -32,10 +32,26 @@ else {
   incorrectAnswer(2);
 }
 
-var questionThree = prompt('Am I over the age of 25?')
+var questionThree = prompt('Am I over the age of 25?');
 if(questionThree.toUpperCase() === "NO" || questionThree.toUpperCase() === "N"){
   correctAnswer(3);
 }
 else {
   incorrectAnswer(3);
+}
+
+var questionFour = prompt('Do I love dogs?');
+if(questionFour.toUpperCase() === "YES" || questionFour.toUpperCase() === "Y"){
+  correctAnswer(4);
+}
+else {
+  incorrectAnswer(4);
+}
+
+var questionFive = prompt('Am I the oldest brother in my family?');
+if(questionFive.toUpperCase() === "NO" || questionFive.toUpperCase() === "N"){
+  correctAnswer(5);
+}
+else {
+  incorrectAnswer(5);
 }
