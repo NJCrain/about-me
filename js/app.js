@@ -17,7 +17,7 @@ var incorrectAnswer = function(questionNumber) {
 }
  
 var questionOne = prompt('Am I over 6\'2"?');
-if(questionOne.toUpperCase() === "YES" || questionOne.toUpperCase() === "Y"){
+if(questionOne.toUpperCase() === 'YES' || questionOne.toUpperCase() === 'Y'){
   correctAnswer(1);
 }
 else {
@@ -25,7 +25,7 @@ else {
 }
 
 var questionTwo = prompt('Do I play video games?')
-if(questionTwo.toUpperCase() === "YES" || questionTwo.toUpperCase() === "Y"){
+if(questionTwo.toUpperCase() === 'YES' || questionTwo.toUpperCase() === 'Y'){
   correctAnswer(2);
 }
 else {
@@ -33,7 +33,7 @@ else {
 }
 
 var questionThree = prompt('Am I over the age of 25?');
-if(questionThree.toUpperCase() === "NO" || questionThree.toUpperCase() === "N"){
+if(questionThree.toUpperCase() === 'NO' || questionThree.toUpperCase() === 'N'){
   correctAnswer(3);
 }
 else {
@@ -41,7 +41,7 @@ else {
 }
 
 var questionFour = prompt('Do I love dogs?');
-if(questionFour.toUpperCase() === "YES" || questionFour.toUpperCase() === "Y"){
+if(questionFour.toUpperCase() === 'YES' || questionFour.toUpperCase() === 'Y'){
   correctAnswer(4);
 }
 else {
@@ -49,7 +49,7 @@ else {
 }
 
 var questionFive = prompt('Am I the oldest brother in my family?');
-if(questionFive.toUpperCase() === "NO" || questionFive.toUpperCase() === "N"){
+if(questionFive.toUpperCase() === 'NO' || questionFive.toUpperCase() === 'N'){
   correctAnswer(5);
 }
 else {
